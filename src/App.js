@@ -8,8 +8,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <UserInput />
-        <UserOutput />
+        <UserOutput username="Fadi">we are using the content </UserOutput>
+        <UserOutput username="another user">Another Text </UserOutput>
+        <UserOutput username="another username goes here">The Best Text </UserOutput>
       </div>
     );
   }
